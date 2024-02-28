@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  padding: 70px 0px;
+}
+.header-logo {
+  font-family: Volkhov;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #484848;
+}
+
+.nav-list {
+  column-gap: 58px;
+  align-items: center;
+}
+.nav-list a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #484848;
+}
+.nav-list a:hover {
+  border-bottom: solid 1px black;
+}
+.hero-div {
+  width: 392px;
+  height: 756px;
+  background-color: #e0e0e0;
+  padding-top: 187px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.hero-div-center {
+  width: 392px;
+  height: 756px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.women-div {
+  width: 426px;
+  height: 150px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+.hero-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-text h1 {
+  font-family: Poppins;
+  font-size: 91px;
+  font-weight: 500;
+  line-height: 91px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+.hero-text h1 span {
+  font-family: Poppins;
+  font-size: 187px;
+  font-weight: 500;
+  line-height: 187px;
+  letter-spacing: -0.055em;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.hero-text p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero-text button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  padding: 20px 60px;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 126px 0px;
+}
+.deals {
+  display: flex;
+  justify-content: space-between;
+}
+.deals-text h2 {
+  color: #484848;
+  font-family: Volkhov;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 59px;
+  margin-bottom: 19.21px;
+}
+.deals-text p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 436px;
+  height: 74.92px;
+  top: 1433.88px;
+  left: 320px;
+}
+.deals-text button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 207px;
+  height: 53.79px;
+  top: 1547.21px;
+  left: 320px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 38.42px;
+}
+
+.watch {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.watch h3 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.watch-time {
+  margin-top: 15px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.time-square {
+  padding: 22px 12px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.time-square span {
+  font-family: Digital Numbers;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.timing {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.deals-content-2 {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  justify-content: center;
+}
+.deals-images {
+  position: relative;
+  height: 426px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.spring-sale {
+  width: 217px;
+  height: 130px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1;
+  padding: 32px;
+}
+
+.spring-sale h6 {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+  color: #484848;
+}
+.spring-sale p {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 8px;
+  color: #484848;
+}
+.spring-sale-line {
+  width: 27px;
+  height: 1px;
+  background-color: #484848;
+}
+.deals-images img {
+  height: 426px;
+}
+.deals-images img:hover {
+  transform: scale(1.1);
+}
+.arrivals {
+  margin-top: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrivals-title {
+  width: 614px;
+  height: 131px;
+}
+.arrivals-title h2 {
+  font-family: Volkhov;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #484848;
+}
+.arrivals-title p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8a8a8a;
+}
+.new-arrivals-buttons {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.arrivals-btn {
+  padding: 20px 48px;
+  border-radius: 10px;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8a8a8a;
+  background-color: #fafafa;
+  margin-bottom: 50px;
+}
+.arrivals-btn:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+}
+.arrivals-card {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.card {
+  width: 386px;
+  height: 438px;
+  background-color: white;
+  border: none;
+  padding: 15px 25px 36px;
+}
+.card-img {
+  width: 336px;
+  height: 244px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.card-title-text h5 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  width: auto;
+}
+.card-title p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: rgba(138, 138, 138, 1);
+}
+.card-reviews {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(72, 72, 72, 1);
+  margin: 25px 0;
+}
+.card-price p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: rgba(72, 72, 72, 1);
+}
+.card-price span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 70, 70, 1);
+}
